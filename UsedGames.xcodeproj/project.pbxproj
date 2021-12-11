@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B51E84427287E0B004FBCFD /* UsedGames+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51E84327287E0B004FBCFD /* UsedGames+Formatter.swift */; };
+		5B51E854273947B40082E7A8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B51E853273947B40082E7A8 /* Colors.xcassets */; };
+		5B51E85627394A810082E7A8 /* Color+UsedGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51E85527394A810082E7A8 /* Color+UsedGames.swift */; };
+		5B51E8582739516D0082E7A8 /* GameListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B51E8572739516D0082E7A8 /* GameListItem.swift */; };
+		5B6DD61B273AD3C100DDA7CF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DD61A273AD3C100DDA7CF /* DetailView.swift */; };
+		5B6E7F0427274FE100EE32EE /* GameStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6E7F0327274FE100EE32EE /* GameStore.swift */; };
 		5BA4F4D22725E035004A893B /* UsedGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F4D12725E035004A893B /* UsedGamesApp.swift */; };
 		5BA4F4D42725E035004A893B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F4D32725E035004A893B /* ContentView.swift */; };
 		5BA4F4D62725E037004A893B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA4F4D52725E037004A893B /* Assets.xcassets */; };
 		5BA4F4D92725E037004A893B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA4F4D82725E037004A893B /* Preview Assets.xcassets */; };
 		5BA4F4E42725E037004A893B /* UsedGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F4E32725E037004A893B /* UsedGamesTests.swift */; };
 		5BA4F4EF2725E037004A893B /* UsedGamesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F4EE2725E037004A893B /* UsedGamesUITests.swift */; };
+		5BA4F4FD2725E3BD004A893B /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA4F4FC2725E3BD004A893B /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B51E84327287E0B004FBCFD /* UsedGames+Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UsedGames+Formatter.swift"; sourceTree = "<group>"; };
+		5B51E853273947B40082E7A8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		5B51E85527394A810082E7A8 /* Color+UsedGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UsedGames.swift"; sourceTree = "<group>"; };
+		5B51E8572739516D0082E7A8 /* GameListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListItem.swift; sourceTree = "<group>"; };
+		5B6DD61A273AD3C100DDA7CF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5B6E7F0327274FE100EE32EE /* GameStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStore.swift; sourceTree = "<group>"; };
 		5BA4F4CE2725E035004A893B /* UsedGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsedGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA4F4D12725E035004A893B /* UsedGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedGamesApp.swift; sourceTree = "<group>"; };
 		5BA4F4D32725E035004A893B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +58,7 @@
 		5BA4F4EA2725E037004A893B /* UsedGamesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UsedGamesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA4F4EE2725E037004A893B /* UsedGamesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedGamesUITests.swift; sourceTree = "<group>"; };
 		5BA4F4F02725E037004A893B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA4F4FC2725E3BD004A893B /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,16 @@
 			children = (
 				5BA4F4D12725E035004A893B /* UsedGamesApp.swift */,
 				5BA4F4D32725E035004A893B /* ContentView.swift */,
+				5B6DD61A273AD3C100DDA7CF /* DetailView.swift */,
+				5B51E84327287E0B004FBCFD /* UsedGames+Formatter.swift */,
+				5BA4F4FC2725E3BD004A893B /* Game.swift */,
+				5B6E7F0327274FE100EE32EE /* GameStore.swift */,
+				5B51E853273947B40082E7A8 /* Colors.xcassets */,
 				5BA4F4D52725E037004A893B /* Assets.xcassets */,
 				5BA4F4DA2725E037004A893B /* Info.plist */,
 				5BA4F4D72725E037004A893B /* Preview Content */,
+				5B51E85527394A810082E7A8 /* Color+UsedGames.swift */,
+				5B51E8572739516D0082E7A8 /* GameListItem.swift */,
 			);
 			path = UsedGames;
 			sourceTree = "<group>";
@@ -233,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B51E854273947B40082E7A8 /* Colors.xcassets in Resources */,
 				5BA4F4D92725E037004A893B /* Preview Assets.xcassets in Resources */,
 				5BA4F4D62725E037004A893B /* Assets.xcassets in Resources */,
 			);
@@ -260,6 +282,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA4F4D42725E035004A893B /* ContentView.swift in Sources */,
+				5B6DD61B273AD3C100DDA7CF /* DetailView.swift in Sources */,
+				5B6E7F0427274FE100EE32EE /* GameStore.swift in Sources */,
+				5B51E8582739516D0082E7A8 /* GameListItem.swift in Sources */,
+				5B51E85627394A810082E7A8 /* Color+UsedGames.swift in Sources */,
+				5B51E84427287E0B004FBCFD /* UsedGames+Formatter.swift in Sources */,
+				5BA4F4FD2725E3BD004A893B /* Game.swift in Sources */,
 				5BA4F4D22725E035004A893B /* UsedGamesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
